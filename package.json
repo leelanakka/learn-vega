@@ -1,0 +1,22 @@
+{
+  "name": "data_experiments",
+  "version": "1.0.0",
+  "description": "",
+  "main": "showChart.js",
+  "scripts": {
+    "start": "cd src && node downloadQuotes.js RELIANCE && node showChart.js ../data/RELIANCE.txt 'Open Price' && node parser.js && cd .. && node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "asciichart": "^1.5.7",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.16.4",
+    "lodash": "^4.17.11",
+    "papaparse": "^4.6.3",
+    "request": "^2.88.0",
+    "vega": "^5.3.5"
+  }
+}
