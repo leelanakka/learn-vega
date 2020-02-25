@@ -8,7 +8,7 @@ const htmlData = function() {
   return fs.readFileSync("./data/some.html", "utf8");
 };
 const vegaData = () => {
-  return fs.readFileSync("./data/updatedVegaData.json", "utf8");
+  return fs.readFileSync("./data/buildings.json", "utf8");
 };
 
 const renderVegaPage = function(req, res) {
